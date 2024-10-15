@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta property="og:title" content="TomatoPay"/>
+<meta property="og:image" content="./images/logo.png"/>
+<meta property="og:url" content="http://www.tomatopay.com"/>
+<meta property="og:site_name" content="TomatoPay"/>
+<meta property="og:description" content="편리하고 안정한 온, 오프라인 결제서비스"/>
+<title>토마토페이</title>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="./images/favicon_pay.ico">
+
+<!-- Main Style -->
+<link rel="stylesheet" type="text/css" href="./css/style.css" />
+<link rel="stylesheet" type="text/css" href="./css/tomatopay.css">
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="./js/html5shiv.js"></script>
+<script type="text/javascript" src="./js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="./js/html5shiv.js"></script>
+<script type="text/javascript" src="./js/respond.min.js"></script>
+
+<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+<script type="text/javascript" src="./js/common.js"></script>
+
+<!-- Swiper JS -->
+<script type="text/javascript" src="./js/swiper.js"></script>
+
+<script type="text/javascript">
+// tomatopay.css에서 이동
+$(function(){
+	if($('body').hasClass('t') || $('body').hasClass('m')){
+	} else {
+		$('.m_article').hivefull();
+		/*moveTo(3); 시작 페이지 넘버로 구분*/
+	};
+});
+</script>
+
+<!-- Modernizr -->
+<script type="text/javascript" src="./js/modernizr.js"></script>
+</head>
+
+<body class="main reaction selection">
+<div id="wrap">
+	<!-- header -->
+	<div id="header">
+		<div class="layout">
+			<h1 class="logo"><a href="index.html" class="sp">TOMATOPAY</a></h1>
+			<div class="r_gnb">
+				<h2 class="blind">대메뉴</h2>
+				<ul class="nav">
+					<li><a href="franchise.htm">통통코인 가맹점</a></li>
+					<li><a href="pg_info.htm">PG</a></li>
+					<li><a href="van_info.htm">VAN</a></li>
+					<!--li><a href="menu_info.htm">주문통</a></li>
+					<li><a href="ars_info.htm">ARS간편결제</a></li-->
+					<li><a href="index.html#mt4">회사소개</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- //header -->
+
+	<!-- container -->
+	<div id="container">
+		<ul class="m_article">
+			<li class="li1" style="background-image:url(./images/bg_m1.jpg)">
+				<div class="layout">
+					<div id="content">
+						<div class="m_wrap">
+							<div class="l_tit w_txt">
+								토마토페이
+								<span class="l_txt">가 대한민국의<br>편리한 결제서비스 제공을<br>위해 노력합니다.</span>
+							</div>
+
+							<div class="main_nav">
+								<ul id="setPng24" class="nav_lst">
+									<li onclick="moveTo(2);">
+										<p class="pic"><img src="./images/main_btn01.png" alt="PG" class="png24"></p>
+									</li>
+									<li class="mid" onclick="moveTo(3);">
+										<p class="pic"><img src="./images/main_btn02.png" alt="VAN" class="png24"></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li class="li2" style="background-image:url(./images/bg_m2.jpg)">
+				<div class="layout">
+					<div id="content">
+						<div class="m_wrap">
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="ss_case">
+											<h2 class="ss_tit">
+												토마토페이<span class="s_ltxt">를<br>통해 더 많은 고객과 만나세요.</span>
+                                                <a href="pg_info.htm" class="btn">자세히 알아보기</a>
+											</h2>
+			
+											<p class="ss_txt">
+												<img src="./images/m_thum2_1.jpg" alt="토마토 그룹의 켄텐츠 지원">
+												<b>토마토 그룹의 켄텐츠 지원</b>
+												<em>- 미디어, 플랫폼 등 다양한 컨텐츠를 보유한 토마토그룹의 시스템 지원</em>
+												<img src="./images/m_thum2_2.jpg" alt="얼굴인식 결제 서비스">
+												<b>얼굴인식 결제 서비스</b>
+												<em>- KISA (한국인터넷진흥원) 성능시험에서 조명, 표정, 포즈, 액세서리 등 4개 시험항목 평균 99%이상 성공률</em>
+											</p>
+										</div>
+									</div>
+
+									<!--div class="swiper-slide">
+										<div class="ss_case">
+											<h2 class="sb_tit">
+												토마토페이<br><span class="s_txt">PG 서비스</span>
+											</h2>
+				
+											<div class="sb_txt">
+												<div class="accordion wn"><a href="pg_info.htm">서비스 소개</a></div>
+												<div class="accordion wn"><a href="pg_inquiry.htm">서비스 신청</a></div>
+												<div class="accordion wn"><a href="pg_guide.htm">설치 가이드</a></div>
+												<div class="accordion wn"><a href="pg_help.htm">도움말</a></div>
+											</div>
+										</div>
+									</div-->
+								</div>
+
+								<!-- Add Navigation
+								<div class="swiper-button-prev white-btn"></div>
+								<div class="swiper-button-next white-btn swiper-select" onClick="location.href='pg_info.htm'"></div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li class="li3" style="background-image:url(./images/bg_m3.jpg)">
+				<div class="layout">
+					<div id="content">
+						<div class="m_wrap">
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="ss_case">
+											<h2 class="ss_tit">
+												토마토페이 <span class="s_ltxt">를<br>통해 더 많은 고객과 만나세요.</span><br>
+                                                <a href="van_info.htm" class="btn">자세히 알아보기</a>
+											</h2>
+			
+											<p class="ss_txt">
+												<img src="./images/m_thum3_1.jpg" alt="가맹점 특성에 맞는 소프트웨어">
+												<b>가맹점 특성에 맞는 소프트웨어</b>
+												<em>- 가맹점 판매물품, 업종에 적합한 최적의 소프트웨어를 제공합니다.</em>
+												<img src="./images/m_thum3_2.jpg" alt="정확하고 빠른 A/S">
+												<b>정확하고 빠른 A/S</b>
+												<em>- 각종 문의 사항 및 불편사항을 언제나 빠르게 처리해드립니다.</em>
+											</p>
+										</div>
+									</div>
+
+									<!--div class="swiper-slide">
+										<div class="ss_case">
+											<h2 class="sb_tit">
+												토마토페이<br><span class="s_txt">VAN 서비스</span>
+											</h2>
+				
+											<div class="sb_txt">
+												<div class="accordion wn"><a href="van_info.htm">서비스 소개</a></div>
+												<div class="accordion wn"><a href="van_machine.htm">단말기</a></div>
+												<div class="accordion wn"><a href="van_inquiry.htm">서비스 신청</a></div>
+												<div class="accordion wn"><a href="van_help.htm">도움말</a></div>
+											</div>
+										</div>
+									</div-->
+								</div>
+
+								<!-- Add Navigation
+								<div class="swiper-button-prev white-btn"></div>
+								<div class="swiper-button-next white-btn swiper-select" onClick="location.href='van_info.htm'"></div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li class="li4" style="background-image:url(./images/bg_m18.jpg)">
+				<div class="layout">
+					<div id="content">
+						<div class="m_wrap">
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="ss_case">
+											<h2 class="ss_tit">
+												토마토오피스 <span class="s_ltxt">로<br>
+												효율적으로 인적·물적 자원을 관리하여 매출을 증대시킬 수 있습니다.</span><br>
+                                                <a href="#" target="_blank" class="btn">자세히 알아보기</a>
+											</h2>
+			
+											<p class="ss_txt">
+												<img src="./images/m_thum4_1.jpg" alt="OFFICE">
+												<b>OFFICE</b>
+												<em>
+													- 통통오피스는 통통코인과 연동된<br>
+													다양한 서비스를 제공합니다.
+												</em>
+												<img src="./images/m_thum4_2.jpg" alt="PAYMENT">
+												<b>PAYMENT</b>
+												<em>
+													- 통통코인으로 결제한 고객에게<br>
+													보상 프로그램을 실시하여<br>
+													가맹점의 수익을 높이겠습니다.
+												</em>
+											</p>
+										</div>
+									</div>
+
+									<!--div class="swiper-slide">
+										<div class="ss_case">
+											<h2 class="sb_tit">
+												토마토페이<br><span class="s_txt">VAN 서비스</span>
+											</h2>
+				
+											<div class="sb_txt">
+												<div class="accordion wn"><a href="van_info.htm">서비스 소개</a></div>
+												<div class="accordion wn"><a href="van_machine.htm">단말기</a></div>
+												<div class="accordion wn"><a href="van_inquiry.htm">서비스 신청</a></div>
+												<div class="accordion wn"><a href="van_help.htm">도움말</a></div>
+											</div>
+										</div>
+									</div-->
+								</div>
+
+								<!-- Add Navigation
+								<div class="swiper-button-prev white-btn"></div>
+								<div class="swiper-button-next white-btn swiper-select" onClick="location.href='van_info.htm'"></div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li id="mt5" class="li5" style="background-image:url(./images/bg_m4.jpg)">
+				<div class="layout">
+					<div id="content">
+						<div class="m_wrap">
+							<div class="ss_case">
+                                <h2 class="sb_stit">
+                                    ABOUT<br>토마토페이 <span class="s_stxt">회사소개</span>
+                                </h2>
+								<div class="sc_thum"><img src="./images/c_img1.jpg" alt="회사이미지"></div>
+                            </div>
+                            <div class="clear"></div>
+
+							<div class="ss_case">
+                                <h2 class="sb_ltit">저희 토마토페이<span class="s_stxt">는</span></h2>
+                                <p class="sb_ltxt">
+                                    대한민국의 편리한 결제 서비스를 위해 끊임없이 고민하고 노력하고 있습니다.<br>
+                                    주식회사 토마토페이는 전자결제서비스 및 VAN 서비를 통해 전자금융산업의 발전과 소상공인의 더 나은 서비스를 제공하기 위해 끊임없이 고민하고, 또 노력하고 있습니다.<br>
+                                    최근 떠오르고 있는 O2O시장의 선도적인 역할을 수행 하기 위해 결제대행(PG), 온라인 오프라인 카드 VAN등 다양한 사업을 전개하고 있으며, 향후 결제수단의 확장과 ON/OFFLINE 통합 결제 서비스를 론칭하여 결제시장의 선도기업으로 한걸음 나아가고자합니다.<br><br>
+                                    저희 주식회사 토마토페이는 고객에게 최고의 서비스를 제공하며 함께 성장하는 기업으로 최선을 다하겠습니다.
+                                </p>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+
+            <li class="li6" style="background-image:url(./images/bg_m5.jpg)">
+				<div class="layout">
+					<div id="content">
+                    	<div class="m_wrap">
+							<div class="ss_case">
+								<h2 class="sb_stit">
+									HISTORY<br>토마토페이 <span class="s_stxt">연혁</span>
+								</h2>
+
+								<div class="sb_stxt">
+                                	<div class="ft_case">
+										<img src="./images/history_img1.png" alt="연혁">
+										<!--div class="faq_wrap">
+											<div class="faq_txt">
+												<b class="ft_title">2015년</b>
+												<p class="ft_ltxt">
+                                                	사명변경 ㈜톰톰 -> ㈜토마토페이<br>
+                                                    NH투자증권 - SBI저축은행 RMS구축<br>
+                                                    이베스트,유진투자증권, SBI저축은행 RMS구축<br>
+                                                    PG업등록(금융위원회)<br>
+                                                    BC,신한,삼성,롯데,현대,하나SK카드 대표가맹계약
+                                                </p>
+                                                <b class="ft_title">2014년</b>
+												<p class="ft_ltxt">
+                                                	하나금융투자 - 인성저축은행 RMS구축<br>
+                                                    (구)우리투자증권 - SBI저축은행 RMS구축
+                                                </p>
+                                                <b class="ft_title">2013년</b>
+												<p class="ft_ltxt">
+                                                	하나금융투자 - 하나캐피탈 RMS구축<br>
+                                                    SK증권 - 한화저축은행 RMS구축<br>
+                                                    동부증권 - 하나캐피탈 RMS구축<br>
+                                                    한화증권 - 하나캐피탈 RMS구축<br>
+                                                    유안타증권 - 동부저축은행 RMS구축
+                                                </p>
+                                                <b class="ft_title">2012년</b>
+												<p class="ft_ltxt">
+                                                	RMS(증권사 위험관리스템)<br>
+                                                    (주)엔위드에서 사업본부 인수<br>
+                                                    하나금융투자 - 대백저축은행 RMS구축<br>
+                                                    (구)우리투자증권 - 대백저축은행 RMS구축
+                                                </p>
+                                                <b class="ft_title">2011년</b>
+												<p class="ft_ltxt">
+                                                	주식,선물모의투자 HTS(home trading system) 개발<br>
+                                                    이트레이드증권과 모의투자대회 연동사업개발<br>
+                                                    토마토미디어 시스템관리사업
+                                                </p>
+                                                <b class="ft_title">2010년</b>
+												<p class="ft_ltxt">
+                                                	토마토미디어그룹 편입, ㈜톰톰
+                                                </p>
+											</div>
+										</div-->
+									</div>
+								</div>
+							</div>                                   
+						</div>
+					</div>
+				</div>
+			</li>
+
+            <li class="li7" style="background-image:url(./images/bg_m6.jpg)">
+				<div class="layout">
+					<div id="content">
+                    	<div class="m_wrap">
+							<div class="ss_case">
+								<h2 class="sb_stit">
+									CONTACT US <span class="s_sstxt">02-2128-2600</span><br>
+                                    (주) 토마토페이, <span class="s_sstxt">서울특별시 마포구 양화진4길 32(합정동), 이토마토빌딩 4층</span>
+								</h2>
+
+								<div class="sb_info">
+                                	<div class="si_content">
+                                    	<b class="si_tit">PG 서비스 <img src="./images/pg_icon.png" alt="PG 서비스"></b>
+                                        <p class="si_txt">
+                                        	<a href="tel:0221282647"><img src="./images/icon/tel_icon.png" alt="Tel"> 02) 2128-2647</a>
+                                            <a href="mailto:leekisu0923@etomato.com"><img src="./images/icon/mail_icon.png" alt="Mail"> leekisu0923@etomato.com</a>
+										</p>
+                                    </div>
+                                    <div class="si_content">
+                                    	<b class="si_tit">VAN 서비스 <img src="./images/van_icon.png" alt="VAN 서비스"></b>
+                                        <p class="si_txt">
+                                        	<a href="tel:0221282613"><img src="./images/icon/tel_icon.png" alt="Tel"> 02) 2128-2613</a>
+                                            <a href="mailto:goodspawn1@etomato.com"><img src="./images/icon/mail_icon.png" alt="Mail"> goodspawn1@etomato.com</a>
+										</p>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+
+								<div class="sb_stxt">
+									<div class="faq_wrap">
+										<div class="faq_txt">
+											<div class="ft_map">
+												지도
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>                                   
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+
+		<ul class="m_remarea">
+			<li><button type="button" class="m_rem on" onclick="moveTo(1);" onkeypress="moveTo(1);" id="btn_1"><span class="tar"><em></em></span></button></li>
+			<li><button type="button" class="m_rem" onclick="moveTo(2);" onkeypress="moveTo(2);" id="btn_2"><span class="tar"><em></em></span></button></li>
+			<li><button type="button" class="m_rem" onclick="moveTo(3);" onkeypress="moveTo(3);" id="btn_3"><span class="tar"><em></em></span></button></li>
+            <li><button type="button" class="m_rem" onclick="moveTo(4);" onkeypress="moveTo(4);" id="btn_4"><span class="tar"><em></em></span></button></li>
+            <li><button type="button" class="m_rem" onclick="moveTo(5);" onkeypress="moveTo(5);" id="btn_5"><span class="tar"><em></em></span></button></li>
+            <li><button type="button" class="m_rem" onclick="moveTo(6);" onkeypress="moveTo(6);" id="btn_6"><span class="tar"><em></em></span></button></li>
+		</ul>
+	</div>
+	<!-- container -->
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="layout">
+			<div class="footer_info">
+				<!--ul class="f_gnb">
+					<li><a href="#">회사소개</a><span class="line">&nbsp;</span></li>
+					<li><a href="#">이용약관</a><span class="line">&nbsp;</span></li>
+					<li><a href="#">개인정보 처리방침</a><span class="line">&nbsp;</span></li>
+				</ul>
+				<ul class="f_lang">
+					<li><a href="#" class="current">회사소개</a><span class="line">&nbsp;</span></li>
+					<li><a href="#">이용약관</a><span class="line">&nbsp;</span></li>
+					<li><a href="#">개인정보</a><span class="line">&nbsp;</span></li>
+				</ul-->
+				<div class="copyright"><span class="tx"><span class="bul">&copy;</span><span class="bul_txt">Copyright</span> TOMATO PAY Co., Ltd.</span> <span class="tx">All Rights Reserved.</span></div>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+</div>
+
+<!-- PopUp -->
+<script type="text/javascript">
+jQuery(function($){
+	var popup1Window = $('.mw_popup1');
+	var popup1 = $('#popup1');
+	
+	// Show Hide
+	$('.popup1_trigger').click(function(){
+		popup1Window.addClass('open');
+	});
+	$('#popup1 .close').click(function(){
+		popup1Window.removeClass('open');
+	});
+	$('#popup1 .btn_close').click(function(){
+		popup1Window.removeClass('open');
+	});
+	// g_popup1
+	$('.g_anchor').click(function(){
+		popup1.removeClass('o_popup1');
+		popup1.addClass('g_popup1');
+	});
+
+	// ESC Event
+	$(document).keydown(function(event){
+		if(event.keyCode != 27) return true;
+		if (popup1Window.hasClass('open')) {
+			popup1Window.removeClass('open');
+		}
+		return false;
+	});
+	// Hide Window
+	popup1Window.find('>.bg').mousedown(function(event){
+		popup1Window.removeClass('open');
+		return false;
+	});
+});
+</script>
+
+<!-- Initialize Swiper -->
+<script type="text/javascript">
+var swiper = new Swiper('.swiper-container', {
+	pagination: '.swiper-pagination',
+	paginationClickable: true,
+	nextButton: '.swiper-button-next',
+	prevButton: '.swiper-button-prev'
+	/*loop:'auto'*/
+});
+</script>
+
+<!-- Responsive paginate -->
+<script type="text/javascript" src="./js/responsivePaginate.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	$(".responsivePaginate").responsivePaginate();
+});
+</script>
+</body>
+</html>

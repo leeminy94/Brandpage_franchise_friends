@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta property="og:title" content="TomatoPay"/>
+<meta property="og:image" content="./images/logo.png"/>
+<meta property="og:url" content="http://www.tomatopay.com"/>
+<meta property="og:site_name" content="TomatoPay"/>
+<meta property="og:description" content="편리하고 안정한 온, 오프라인 결제서비스"/>
+<title>토마토페이</title>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="./images/favicon_pay.ico">
+
+<!-- Main Style -->
+<link rel="stylesheet" type="text/css" href="./css/style.css" />
+<link rel="stylesheet" type="text/css" href="./css/tomatopay.css">
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="./js/html5shiv.js"></script>
+<script type="text/javascript" src="./js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="./js/html5shiv.js"></script>
+<script type="text/javascript" src="./js/respond.min.js"></script>
+
+<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+<script type="text/javascript" src="./js/common.js"></script>
+
+<!-- Swiper JS -->
+<script type="text/javascript" src="./js/swiper.js"></script>
+
+<script type="text/javascript">
+// tomatopay.css에서 이동
+$(function(){
+	if($('body').hasClass('t') || $('body').hasClass('m')){
+	} else {
+		$('.m_article').hivefull();
+		/*moveTo(3); 시작 페이지 넘버로 구분*/
+	};
+});
+</script>
+
+<!-- Modernizr -->
+<script type="text/javascript" src="./js/modernizr.js"></script>
+</head>
+
+<body class="main reaction selection">
+<!--### 팝업 시작 : POPUP ###-->
+<div class="mw_popup1">
+	<div class="bg"></div>
+	<div id="popup1" class="g_popup1" >
+		<div class="pop_header">
+			<p>시연 동영상</p>
+			<a title="닫기" class="close"><img src="./images/icon/cancel_gray.png" alt="닫기"/></a>
+		</div>
+		<div class="pop_vod">
+			동영상 노출 영역
+		</div>
+	</div>
+</div>
+<!--### 팝업 끝 : POPUP ###-->
+
+<div id="wrap">
+	<!-- header -->
+	<div id="header">
+		<div class="layout">
+			<h1 class="logo"><a href="index.html" class="sp">TOMATOPAY</a></h1>
+			<div class="r_gnb">
+				<h2 class="blind">대메뉴</h2>
+				<ul class="nav">
+					<li><a href="index.html#mt4">COMPANY</a></li>
+					<li><a href="pg_info.htm">PG</a></li>
+					<li><a href="van_info.htm">VAN</a></li>
+					<li><a href="menu_info.htm">주문통</a></li>
+					<li><a href="ars_info.htm">ARS간편결제</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- //header -->
+
+	<!-- container -->
+	<div id="container">
+		<ul class="m_article">
+			<li class="li1" style="background-image:url(./images/bg_m11.jpg)">
+				<div class="layout">
+					<div id="content">
+						<div class="m_wrap">
+							<div class="l_tit w_txt">
+								주문통
+								<span class="l_txt">은<br>쉽고(EASY) 간편하고(SIMPLE)안전한(SAFETY) 서비스를 모토로<br>새로운 결제 문화를 만들어 가고자 합니다.</span>
+							</div>
+
+							<div class="main_nav">
+								<ul class="nav_lst">
+									<li class="w90">
+										<p class="pic"><a href="#popup1" title="" id="popup1_anchor" class="popup1_trigger"><img src="./images/sub_btn03.png" alt="VOD" class="png24"></a></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li class="li2" style="background-image:url(./images/bg_m7.jpg)">
+				<div class="layout">
+					<div id="content">
+						<div class="m_wrap">
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="ss_case">
+											<h2 class="ss_btit">
+												<b>ABOUT</b><br>
+												<b>주문통</b>
+												<span class="s_stxt">서비스소개</span><br>
+												<span class="s_sbtxt">
+													복잡한 주문<br>
+													웨이팅 없이<br>
+													빠르고 쉽게 진행하세요
+												</span>
+											</h2>
+
+											<p class="mi_txt">
+												<img src="./images/mi_img1.png" alt="">
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li class="li3" style="background-image:url(./images/bg_m8.jpg)">
+				<div class="layout">
+					<div id="content">
+						<div class="m_wrap">
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="ss_case">
+											<h2 class="ss_btit">
+												<b>STEP 1</b><br>
+												<b>NFC 태그!</b><br>
+												<span class="s_sbtxt">
+													매장 테이블에 부착된<br>
+													NFC를 찾아 태그하세요.
+												</span>
+											</h2>
+
+											<p class="mi_txt">
+												<img src="./images/mi_img2.png" alt="">
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li class="li4" style="background-image:url(./images/bg_m9.jpg)">
+				<div class="layout">
+					<div id="content">
+						<div class="m_wrap">
+							<div class="ss_case">
+								<h2 class="ss_btit">
+									<b>STEP 2</b><br>
+									<b>원하는 메뉴선택</b><br>
+									<span class="s_sbtxt">
+										태그 시 호출되는<br>
+										메뉴판에서 원하시는<br>
+										메뉴를 선택하세요.
+									</span>
+								</h2>
+
+								<p class="mi_txt">
+									<img src="./images/mi_img3.png" alt="">
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li class="li5" style="background-image:url(./images/bg_m10.jpg)">
+				<div class="layout">
+					<div id="content">
+						<div class="m_wrap">
+							<div class="ss_case">
+								<h2 class="ss_btit">
+									<b>STEP 3</b><br>
+									<b>카드 결제 진행</b><br>
+									<span class="s_sbtxt">
+										선택하신 메뉴를<br>
+										휴대폰으로 간편하게<br>
+										결제하세요.
+									</span>
+								</h2>
+								<p class="mi_txt">
+									<img src="./images/mi_img4.png" alt="">
+								</p>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li class="li6" style="background-image:url(./images/bg_m11.jpg)">
+				<div class="layout">
+					<div id="content">
+						<div class="m_wrap">
+							<div class="ss_case">
+								<h2 class="ss_btit">
+									<b>STEP 4</b><br>
+									<b>주문 및 결제 완료</b><br>
+									<span class="s_sbtxt">
+										주문하신 음식을<br>
+										맛있게 드시고 나오시면 끝!
+									</span>
+								</h2>
+
+								<p class="mi_txt">
+									<img src="./images/mi_img5.png" alt="">
+								</p>
+								<div class="clear"></div>
+
+								<h2 class="sb_ctit">
+									CONTACT US
+								</h2>
+
+								<div class="sb_info">
+                                	<div class="si_btn">
+										<a href="tel:0221282600">
+	                                    	<b class="sib_tit">문의사항</b>
+    	                                    <p class="sib_txt"><img src="./images/icon/tel_icon.png" alt="Tel"> 02) 2128-2600</p>
+										</a>
+                                    </div>
+                                    <div class="si_btn">
+										<a href="menu_inquiry.htm">
+	                                    	<b class="sib_tit">가맹신청</b>
+    	                                    <p class="sib_txt"><img src="./images/icon/click_icon.png" alt="Click">  바로가기</p>
+										</a>
+                                    </div>
+									<div class="clear"></div>
+                                </div>
+
+								<h2 class="sb_ftit">
+                                    <span class="s_fstxt">
+										㈜토마토페이, TOMATOPAY ㅣ 대표이사 : 남기중<br>
+										사업자등록번호 : 124-87-02232 ㅣ 대표전화: 02-2128-2600<br>
+										서울시 마포구 양화진 4길 32(합정동) 이토마토빌딩 4층
+									</span>
+								</h2>
+                                <div class="clear"></div>
+							</div>                                   
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+
+		<ul class="m_remarea">
+			<li><button type="button" class="m_rem on" onclick="moveTo(1);" onkeypress="moveTo(1);" id="btn_1"><span class="tar"><em></em></span></button></li>
+			<li><button type="button" class="m_rem" onclick="moveTo(2);" onkeypress="moveTo(2);" id="btn_2"><span class="tar"><em></em></span></button></li>
+			<li><button type="button" class="m_rem" onclick="moveTo(3);" onkeypress="moveTo(3);" id="btn_3"><span class="tar"><em></em></span></button></li>
+			<li><button type="button" class="m_rem" onclick="moveTo(4);" onkeypress="moveTo(4);" id="btn_4"><span class="tar"><em></em></span></button></li>
+			<li><button type="button" class="m_rem" onclick="moveTo(5);" onkeypress="moveTo(5);" id="btn_5"><span class="tar"><em></em></span></button></li>
+			<li><button type="button" class="m_rem" onclick="moveTo(6);" onkeypress="moveTo(6);" id="btn_6"><span class="tar"><em></em></span></button></li>
+		</ul>
+	</div>
+	<!-- container -->
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="layout">
+			<div class="footer_info">
+				<div class="copyright"><span class="tx"><span class="bul">&copy;</span><span class="bul_txt">Copyright</span> TOMATO PAY Co., Ltd.</span> <span class="tx">All Rights Reserved.</span></div>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+</div>
+
+<!-- PopUp -->
+<script type="text/javascript">
+jQuery(function($){
+	var popup1Window = $('.mw_popup1');
+	var popup1 = $('#popup1');
+	
+	// Show Hide
+	$('.popup1_trigger').click(function(){
+		popup1Window.addClass('open');
+	});
+	$('#popup1 .close').click(function(){
+		popup1Window.removeClass('open');
+	});
+	$('#popup1 .btn_close').click(function(){
+		popup1Window.removeClass('open');
+	});
+	// g_popup1
+	$('.g_anchor').click(function(){
+		popup1.removeClass('o_popup1');
+		popup1.addClass('g_popup1');
+	});
+
+	// ESC Event
+	$(document).keydown(function(event){
+		if(event.keyCode != 27) return true;
+		if (popup1Window.hasClass('open')) {
+			popup1Window.removeClass('open');
+		}
+		return false;
+	});
+	// Hide Window
+	popup1Window.find('>.bg').mousedown(function(event){
+		popup1Window.removeClass('open');
+		return false;
+	});
+});
+</script>
+
+<!-- Initialize Swiper -->
+<script type="text/javascript">
+var swiper = new Swiper('.swiper-container', {
+	pagination: '.swiper-pagination',
+	paginationClickable: true,
+	nextButton: '.swiper-button-next',
+	prevButton: '.swiper-button-prev'
+	/*loop:'auto'*/
+});
+</script>
+
+<!-- Responsive paginate -->
+<script type="text/javascript" src="./js/responsivePaginate.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	$(".responsivePaginate").responsivePaginate();
+});
+</script>
+</body>
+</html>

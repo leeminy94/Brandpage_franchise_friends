@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta property="og:title" content="TomatoPay"/>
+<meta property="og:image" content="./images/logo.png"/>
+<meta property="og:url" content="http://www.tomatopay.com"/>
+<meta property="og:site_name" content="TomatoPay"/>
+<meta property="og:description" content="편리하고 안정한 온, 오프라인 결제서비스"/>
+<title>토마토페이</title>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="./images/favicon_pay.ico">
+
+<!-- Main Style -->
+<link rel="stylesheet" type="text/css" href="./css/style.css" />
+<link rel="stylesheet" type="text/css" href="./css/tomatopay.css">
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="./js/html5shiv.js"></script>
+<script type="text/javascript" src="./js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="./js/html5shiv.js"></script>
+<script type="text/javascript" src="./js/respond.min.js"></script>
+
+<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+<script type="text/javascript" src="./js/common.js"></script>
+
+<!-- Swiper JS -->
+<script type="text/javascript" src="./js/swiper.js"></script>
+
+<script type="text/javascript">
+// tomatopay.css에서 이동
+$(function(){
+	if($('body').hasClass('t') || $('body').hasClass('m')){
+	} else {
+		$('.m_article').hivefull();
+		/*moveTo(3); 시작 페이지 넘버로 구분*/
+	};
+});
+</script>
+
+<!-- Modernizr -->
+<script type="text/javascript" src="./js/modernizr.js"></script>
+</head>
+
+<body class="main reaction selection">
+<div id="wrap">
+	<!-- header -->
+	<div id="header">
+		<div class="layout">
+			<h1 class="logo"><a href="index.html" class="sp">TOMATOPAY</a></h1>
+			<div class="r_gnb">
+				<h2 class="blind">대메뉴</h2>
+				<ul class="nav">
+					<li><a href="franchise.htm">통통코인 가맹점</a></li>
+					<li><a href="pg_info.htm">PG</a></li>
+					<li><a href="van_info.htm">VAN</a></li>
+					<!--li><a href="menu_info.htm">주문통</a></li>
+					<li><a href="ars_info.htm">ARS간편결제</a></li-->
+					<li><a href="index.html#mt4">회사소개</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- //header -->
+
+	<!-- container -->
+	<div id="container">
+		<ul class="m_article">
+			<li style="background-image:url(./images/bg_m2.jpg)">
+				<div class="layout">
+					<div id="content">
+						<div class="m_wrap">
+							<div class="ss_case">
+								<h2 class="sb_stit">
+									토마토페이<br><span class="s_txt">VAN 서비스</span>
+								</h2>
+
+								<div class="sb_stxt">
+									<div class="accordion wn">
+										<a href="van_info.htm">서비스 소개</a>
+										<a href="van_machine.htm">단말기</a>
+										<a href="van_inquiry.htm" class="on">서비스 신청</a>
+										<a href="van_help.htm">도움말</a>
+									</div>
+									<div class="faq_wrap">
+										<div class="faq_txt">
+											<div class="fc_ftxt">
+												서비수 신청이 완료되었습니다.<br>
+												빠른 시간 내에 서비스 안내 드리겠습니다.
+											</div>
+
+											<ul class="actions">
+												<li><input type="submit" value="확인 >" class="special" onClick="location.href='van_inquiry.htm'" /></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+							<!-- Add Navigation
+							<div class="swiper-button-prev white-btn swiper-select" onClick="location.href='index.html'"></div>
+							<div class="swiper-button-next white-btn swiper-button-disabled"></div> -->
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<!-- container -->
+
+	<!-- footer -->
+	<div id="footer" class="sf_fix">
+		<div class="layout">
+			<div class="footer_info">
+				<!--ul class="f_gnb">
+					<li><a href="#">회사소개</a><span class="line">&nbsp;</span></li>
+					<li><a href="#">이용약관</a><span class="line">&nbsp;</span></li>
+					<li><a href="#">개인정보 처리방침</a><span class="line">&nbsp;</span></li>
+				</ul>
+				<ul class="f_lang">
+					<li><a href="#" class="current">회사소개</a><span class="line">&nbsp;</span></li>
+					<li><a href="#">이용약관</a><span class="line">&nbsp;</span></li>
+					<li><a href="#">개인정보</a><span class="line">&nbsp;</span></li>
+				</ul-->
+				<div class="copyright"><span class="tx"><span class="bul">&copy;</span><span class="bul_txt">Copyright</span> TOMATO PAY Co., Ltd.</span> <span class="tx">All Rights Reserved.</span></div>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+</div>
+
+<!-- PopUp -->
+<script type="text/javascript">
+jQuery(function($){
+	var popup1Window = $('.mw_popup1');
+	var popup1 = $('#popup1');
+	
+	// Show Hide
+	$('.popup1_trigger').click(function(){
+		popup1Window.addClass('open');
+	});
+	$('#popup1 .close').click(function(){
+		popup1Window.removeClass('open');
+	});
+	$('#popup1 .btn_close').click(function(){
+		popup1Window.removeClass('open');
+	});
+	// g_popup1
+	$('.g_anchor').click(function(){
+		popup1.removeClass('o_popup1');
+		popup1.addClass('g_popup1');
+	});
+
+	// ESC Event
+	$(document).keydown(function(event){
+		if(event.keyCode != 27) return true;
+		if (popup1Window.hasClass('open')) {
+			popup1Window.removeClass('open');
+		}
+		return false;
+	});
+	// Hide Window
+	popup1Window.find('>.bg').mousedown(function(event){
+		popup1Window.removeClass('open');
+		return false;
+	});
+});
+</script>
+
+<!-- Initialize Swiper -->
+<script type="text/javascript">
+var swiper = new Swiper('.swiper-container', {
+	pagination: '.swiper-pagination',
+	paginationClickable: true,
+	nextButton: '.swiper-button-next',
+	prevButton: '.swiper-button-prev'
+	/*loop:'auto'*/
+});
+</script>
+
+<!-- Responsive paginate -->
+<script type="text/javascript" src="./js/responsivePaginate.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	$(".responsivePaginate").responsivePaginate();
+});
+</script>
+</body>
+</html>
